@@ -1,0 +1,26 @@
+{
+  "name": "cutout-kit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@clerk/react": "^6.19.4",
+    "@huggingface/transformers": "^3.8.1",
+    "@phosphor-icons/react": "2.1.7",
+    "dexie": "4.4.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "7.3.2"
+  }
+}
