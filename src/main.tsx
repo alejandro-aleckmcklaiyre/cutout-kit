@@ -322,7 +322,7 @@ function App({ hostedAuth }: { hostedAuth?: HostedAuth }) {
     setMessage('')
     setError(false)
     try {
-      const session = await currentProfile()
+      const session = hostedAuth ? hostedAuth.profile : await currentProfile()
       if (!session) {
         const used = await guestExports()
         setGuestCount(used)
